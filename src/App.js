@@ -1,9 +1,9 @@
 import { useState } from "react";
-import FeedbackOptions from "./Сomponents/FeedbackOptions/FeedbackOptions";
-import Statistics from "./Сomponents/Statistics/Statistics";
-import Section from "./Сomponents/Section/Section";
-import Container from "./Сomponents/Container/Container";
-import Notification from "./Сomponents/Notification/Notification";
+import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions.jsx";
+import Statistics from "./components/Statistics/Statistics.jsx";
+import Section from "./components/Section/Section.jsx";
+import Container from "./components/Container/Container.jsx";
+import Notification from "./components/Notification/Notification.jsx";
 
 export default function App() {
   const [good, setGood] = useState(0);
